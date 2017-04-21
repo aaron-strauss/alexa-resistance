@@ -1,0 +1,55 @@
+{
+  "intents": [
+    {
+      "intent": "GetEvent",
+      "slots": [
+        {
+          "name": "city",
+          "type": "AMAZON.US_CITY"
+        },
+        {
+          "name": "state",
+          "type": "AMAZON.US_STATE"
+        },
+        {
+          "name": "zip",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "eventDate",
+          "type": "AMAZON.DATE"
+        },
+        {
+          "name": "beforeAfterOn",
+          "type": "BEFORE_AFTER_ON"
+        },
+        {
+          "name": "nextNearest",
+          "type": "NEXT_OR_NEAREST"
+        },
+        {
+          "name": "eventType",
+          "type": "LIST_OF_EVENT_TYPES"
+        },
+        {
+          "name": "miles",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "ListEventTypes",
+      "slots": []
+    },
+    {
+      "intent": "ListOptions",
+      "slots": []
+    },
+    {
+      "intent": "ListSource",
+      "slots": []
+    }
+  ]
+}
+
+
