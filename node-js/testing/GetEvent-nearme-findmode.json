@@ -6,7 +6,7 @@
         "application": {
             "applicationId": "amzn1.echo-sdk-ams.app.000000-d0ed-0000-ad00-000000d00ebe"
         },
-        "attributes": {},
+        "attributes": {"STATE": "_FINDMODE"},
         "user": {
             "userId": "amzn1.account.AM3B227HF3FAM1B261HK7FFM3A2"
         }
@@ -17,9 +17,13 @@
                 "applicationId": "amzn1.echo-sdk-ams.app.000000-d0ed-0000-ad00-000000d00ebe"
             },
             "user": {
-                "userId": "amzn1.account.AM3B227HF3FAM1B261HK7FFM3A2"
+                "userId": "amzn1.account.AM3B227HF3FAM1B261HK7FFM3A2",
+								"permissions": {
+									"consentToken": "Atza|IwEBIJ_9dWx9ZmIfyGNeSFlWIG0ofCKlbc67ofdqm7U42yMW5IO2E1ZXljd2_9Qgi3PJQP3CsjOfvyAhegSbYObD7hTlZu4S4u2wvQX5h-uX9Sjb0SzgFMemPo_3o1z3WrMJVBy76jv7t-Y5uSjaMliKnrjWcxDQJa1uZCWou_s-itL54nNx9rMd4YBbgbMKbx0-CnmIHt9MVO4vAdHD0eX6j1oxqs6XCAPU577w29F3aaXvF63k93zBu8yZQm95WdonowhOJQWA9EMKW_uEejLgVfXMwWpqPgDXIKvCpPIvzh6LXC-MD9gFMHvJQxOduJ-AtfjWMFkxLJ-T7JuXKmlXJ8ee-hKVTeEEz8l2GbYAHCEMeGxb_ycLInMIzZVOf5FteyKFsC23dQnO7tIQSHvKYrrHqJ1CeUTjIOuAOhRzpfuH9oAfgUzQHqlnHwwu1PgrY3rWtDYXGnIF8wDA-fvAMvGJ9NbXKYzqY5gQmsMIK78oRQ"
+								}
             },
             "device": {
+            		"deviceId": "amzn1.ask.device.AHAWSWBV5UKZVHRNYWMIAJEDQYWTB623LZCHP6LMRHELH7HI2G2VU2D34K6ZOUXMZG4C7L2MW2LND2W2VDRRVI7GE347HYFN4U35XFIT4SYMITRAJTK5SXHVKLFVB3UBD26BQCJOG3IMD5BDIJTYGF3BRN6Q",
                 "supportedInterfaces": {
                     "AudioPlayer": {}
                 }
@@ -38,14 +42,8 @@
         "intent": {
             "name": "GetEvent",
             "slots": {
-                "city": {
-                    "name": "city",
-                    "value": "Brighton"
-                },
-                "state": {
-                    "name": "state",
-                    "value": "Massachusetts"
-                },
+                "city": {"name": "city"},
+                "state": {"name": "state"},
                "eventDate": { "name": "eventDate" },
                "beforeAfterOn": { "name": "beforeAfterOn" },
                "zip": { "name": "zip"},

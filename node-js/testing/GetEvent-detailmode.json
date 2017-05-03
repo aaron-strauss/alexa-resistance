@@ -6,7 +6,7 @@
         "application": {
             "applicationId": "amzn1.echo-sdk-ams.app.000000-d0ed-0000-ad00-000000d00ebe"
         },
-        "attributes": {},
+        "attributes": {"STATE": "_DETAILMODE"},
         "user": {
             "userId": "amzn1.account.AM3B227HF3FAM1B261HK7FFM3A2"
         }
@@ -38,17 +38,14 @@
         "intent": {
             "name": "GetEvent",
             "slots": {
-                "city": {
-                    "name": "city",
-                    "value": "Brighton"
+                "zip": {
+                    "name": "zip",
+                    "value": "01776"
                 },
-                "state": {
-                    "name": "state",
-                    "value": "Massachusetts"
-                },
-               "eventDate": { "name": "eventDate" },
-               "beforeAfterOn": { "name": "beforeAfterOn" },
-               "zip": { "name": "zip"},
+                "city": {"name": "city"},
+                "state": {"name": "state"},
+               "eventDate": { "name": "eventDate", "value": "2017-04-22" },
+               "beforeAfterOn": { "name": "beforeAfterOn" , "value":"after"},
                "miles": { "name": "miles"},
                "eventType": {"name": "eventType"},
                "nextNearest": {"name": "nextNearest"}

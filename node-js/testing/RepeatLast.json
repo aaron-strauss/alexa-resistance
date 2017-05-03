@@ -1,0 +1,107 @@
+{
+    "version": "1.0",
+    "session": {
+        "new": false,
+        "sessionId": "amzn1.echo-api.session.abeee1a7-aee0-41e6-8192-e6faaed9f5ef",
+        "application": {
+            "applicationId": "amzn1.echo-sdk-ams.app.000000-d0ed-0000-ad00-000000d00ebe"
+        },
+        "attributes": {
+		      "STATE": "_DETAILMODE",
+					"lastMsg": "The next event is Staff Office Hours: Charlestown at The Cooperative Bank on Thursday May 4 2017 at 4:00 PM. Would you like the exact address or hear about the next event?", 
+		      "querySlots":{
+                "city": {
+                    "name": "city",
+                    "value": "Brighton"
+                },
+                "state": {
+                    "name": "state",
+                    "value": "Massachusetts"
+                },
+               "eventDate": { "name": "eventDate" },
+               "beforeAfterOn": { "name": "beforeAfterOn" },
+               "zip": { "name": "zip"},
+               "miles": { "name": "miles"},
+               "eventType": {"name": "eventType"},
+               "nextNearest": {"name": "nextNearest"}
+            },
+		      "thisEvent": {
+		          "City": "Washington",
+		          "Date": "Sat, Jun 17, 2017",
+		          "District": "None",
+		          "Location": "Lincoln Memorial",
+		          "Member": "Unaffiliated",
+		          "Party": "Unaffiliated",
+		          "RSVP": "https://www.facebook.com/events/1311965075506939/",
+		          "State": "District of Columbia",
+		          "StateAb": "DC",
+		          "Time": "11:00 AM",
+		          "Zip": "20037",
+		          "address": "2 Lincoln Memorial Circle, NW, Washington, DC 20037",
+		          "cap_id": "280ee7b6-176d-4605-b84d-f4ba4c3b3bd8",
+		          "data_source": "ResistanceRallies",
+		          "dateObj": 1497697200,
+		          "dateString": "Sat Jun 17 2017",
+		          "dateValid": true,
+		          "eventId": "280ee7b6-176d-4605-b84d-f4ba4c3b3bd8",
+		          "eventName": "Womens Nasty March 2017",
+		          "external_id": "resistancerallies:resistandprotest:8871",
+		          "lastUpdated": 1490138923,
+		          "lastUpdatedHuman": "2017-03-21T23:28:43.000000Z",
+		          "lat": 38.8882937,
+		          "lng": -77.0500115,
+		          "loc": {
+		              "lat": 38.8882937,
+		              "lng": -77.0500115
+		          },
+		          "meetingType": "Resistance Event",
+		          "streetAddress": "2 Lincoln Memorial Circle, NW",
+		          "timeEnd": "01:00 PM",
+		          "timeEnd24": "13:00:00",
+		          "timeStart24": "11:00:00",
+		          "timeZone": "America/New_York",
+		          "xtime": "11:00 AM",
+		          "yearMonthDay": "2017-06-17",
+		          "zoneString": "America/New_York",
+		          "dist": 2.172661559156007
+		      },
+		      "restEvents": []
+    	},
+      "user": {
+            "userId": "amzn1.account.AM3B227HF3FAM1B261HK7FFM3A2"
+      }
+    },
+    "context": {
+        "System": {
+            "application": {
+                "applicationId": "amzn1.echo-sdk-ams.app.000000-d0ed-0000-ad00-000000d00ebe"
+            },
+            "user": {
+                "userId": "amzn1.account.AM3B227HF3FAM1B261HK7FFM3A2",
+								"permissions": {
+									"consentToken": "Atza|IwEBIJ_9dWx9ZmIfyGNeSFlWIG0ofCKlbc67ofdqm7U42yMW5IO2E1ZXljd2_9Qgi3PJQP3CsjOfvyAhegSbYObD7hTlZu4S4u2wvQX5h-uX9Sjb0SzgFMemPo_3o1z3WrMJVBy76jv7t-Y5uSjaMliKnrjWcxDQJa1uZCWou_s-itL54nNx9rMd4YBbgbMKbx0-CnmIHt9MVO4vAdHD0eX6j1oxqs6XCAPU577w29F3aaXvF63k93zBu8yZQm95WdonowhOJQWA9EMKW_uEejLgVfXMwWpqPgDXIKvCpPIvzh6LXC-MD9gFMHvJQxOduJ-AtfjWMFkxLJ-T7JuXKmlXJ8ee-hKVTeEEz8l2GbYAHCEMeGxb_ycLInMIzZVOf5FteyKFsC23dQnO7tIQSHvKYrrHqJ1CeUTjIOuAOhRzpfuH9oAfgUzQHqlnHwwu1PgrY3rWtDYXGnIF8wDA-fvAMvGJ9NbXKYzqY5gQmsMIK78oRQ"
+								}
+            },
+            "device": {
+            		"deviceId": "amzn1.ask.device.AHAWSWBV5UKZVHRNYWMIAJEDQYWTB623LZCHP6LMRHELH7HI2G2VU2D34K6ZOUXMZG4C7L2MW2LND2W2VDRRVI7GE347HYFN4U35XFIT4SYMITRAJTK5SXHVKLFVB3UBD26BQCJOG3IMD5BDIJTYGF3BRN6Q",
+                "supportedInterfaces": {
+                    "AudioPlayer": {}
+                }
+            }
+        },
+        "AudioPlayer": {
+            "offsetInMilliseconds": 0,
+            "playerActivity": "IDLE"
+        }
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "amzn1.echo-api.request.6919844a-733e-4e89-893a-fdcb77e2ef0d",
+        "timestamp": "2015-05-13T12:34:56Z",
+        "locale": "en-US",
+        "intent": {
+            "name": "RepeatLast",
+            "slots": {}
+        }
+    }
+}

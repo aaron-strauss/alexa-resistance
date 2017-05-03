@@ -1,0 +1,27 @@
+{
+  "name": "alexa-resistance",
+  "version": "1.0.0",
+  "description": "Find next resistance event",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaron-strauss/alexa-resistance.git"
+  },
+  "keywords": [
+    "Alexa",
+    "resistance",
+    "skill"
+  ],
+  "author": "Aaron Strauss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaron-strauss/alexa-resistance/issues"
+  },
+  "homepage": "https://github.com/aaron-strauss/alexa-resistance#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.0"
+  }
+}
