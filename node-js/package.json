@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/aaron-strauss/alexa-resistance#readme",
   "dependencies": {
-    "alexa-sdk": "^1.0.0"
+    "alexa-sdk": "^1.0.0",
+    "ssml-builder": "^0.1.0"
   }
 }
