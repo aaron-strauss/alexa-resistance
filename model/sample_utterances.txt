@@ -1918,14 +1918,33 @@ GetEvent what is the {nextNearest} resistance {eventType} near {zip}
 GetEvent what is the {nextNearest} resistance {eventType} near {zip} {beforeAfterOn} {eventDate}
 GetEvent what is the {nextNearest} resistance {eventType} near {city} {state}
 GetEvent what is the {nextNearest} resistance {eventType} near {city} {state} {beforeAfterOn} {eventDate}
+MyHelpIntent help
+MyHelpIntent help {pleasantry}
+MyHelpIntent help me
+MyHelpIntent help me {pleasantry}
+MyHelpIntent what can I ask you
+MyHelpIntent example
+MyHelpIntent example {pleasantry}
+QuitEvent quit
+QuitEvent quit {pleasantry}
+QuitEvent exit
+QuitEvent exit {pleasantry}
+QuitEvent stop
+QuitEvent stop {pleasantry}
+QuitEvent go away
+QuitEvent go away {pleasantry}
+QuitEvent bye bye
 ListEventTypes what are the event types
 ListEventTypes what are the possible event types
 ListEventTypes list the event types
+ListEventTypes event types
+ListEventTypes event types {pleasantry}
 ListEventTypes list types of events
 ListEventTypes list the types of events
 ListEventTypes can you list event types
 ListEventTypes please list event types
 ListEventTypes to tell me the event types
+ListOptions options {pleasantry}
 ListOptions tell me the options
 ListOptions tell me my options
 ListOptions list the options
@@ -1939,8 +1958,53 @@ ListSource what is the source of your events
 ListSource what is the source of its events
 ListSource what is the source of these events
 ListSource where do you get your events
+ListSource where do you get your events
 ListSource where does it get its events
 ListSource where are the events from
 ListSource where are your events from
 ListSource where are its events from
+ListSource event source
+ListSource event source {pleasantry}
+EventAddress address
+EventAddress address {pleasantry}
+EventAddress the address
+EventAddress the address {pleasantry}
+EventAddress what is the address
+EventAddress what's the address
+EventAddress exact address
+EventAddress exact address {pleasantry}
+EventAddress the exact address
+EventAddress the exact address {pleasantry}
+EventAddress what is the exact address
+EventAddress what's the exact address
+NextEvent next
+NextEvent next {pleasantry}
+NextEvent the next
+NextEvent the next {pleasantry}
+NextEvent the next one
+NextEvent the next one {pleasantry}
+AnotherSearch search
+AnotherSearch another search
+AnotherSearch try another search
+AnotherSearch new search
+AnotherSearch try a new search
+AnotherSearch try again
+AnotherSearch another query
+AnotherSearch try another query
+AnotherSearch query
+AnotherSearch new query
+AnotherSearch try a new query
+RepeatLast repeat
+RepeatLast repeat {pleasantry}
+RepeatLast repeat that
+RepeatLast repeat that {pleasantry}
+RepeatLast repeat that again
+RepeatLast repeat that again {pleasantry}
+RepeatLast repeat {eventType}
+RepeatLast say that again 
+RepeatLast say that again {pleasantry}
+RepeatLast say again
+RepeatLast come again
+RepeatLast one more time
+GetEvent find the {nextNearest} {eventType} within {miles} miles of {city}
 
