@@ -39,15 +39,39 @@
     },
     {
       "intent": "ListEventTypes",
-      "slots": []
+      "slots": [{"name":"pleasantry","type":"PLEASANTRY"}]
     },
     {
       "intent": "ListOptions",
-      "slots": []
+      "slots": [{"name":"pleasantry","type":"PLEASANTRY"}]
     },
     {
       "intent": "ListSource",
-      "slots": []
+      "slots": [{"name":"pleasantry","type":"PLEASANTRY"}]
+    },
+    {
+      "intent": "EventAddress",
+      "slots": [{"name":"pleasantry","type":"PLEASANTRY"}]
+    },
+    {
+      "intent": "NextEvent",
+      "slots": [{"name":"pleasantry","type":"PLEASANTRY"}]
+    },
+    {
+      "intent": "MyHelpIntent",
+      "slots": [{"name":"pleasantry","type":"PLEASANTRY"}]
+    },
+		{
+      "intent": "QuitEvent",
+      "slots": [{"name":"pleasantry","type":"PLEASANTRY"}]
+    },
+    {
+      "intent": "RepeatLast",
+      "slots": [{"name":"pleasantry","type":"PLEASANTRY"},{"name": "eventType","type": "LIST_OF_EVENT_TYPES"}]
+    },
+    {
+      "intent": "AnotherSearch",
+      "slots": [{"name":"pleasantry","type":"PLEASANTRY"}]
     }
   ]
 }
